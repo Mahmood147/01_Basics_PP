@@ -2,7 +2,7 @@
   "name": "01_basics_pp",
   "version": "1.0.0",
   "description": "",
-  "main": "src/01-fu-World.js",
+  "main": "src/02-variablen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
