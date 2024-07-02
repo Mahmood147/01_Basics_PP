@@ -15,7 +15,7 @@ console.log(firstName); // Ausgabe
 let familyName = "Abdal";
 console.log (familyName)
 console.log ("hi ich bin "+ firstName + " "+ familyName)
-*/
+
 
 let test; // Deklaration
 
@@ -39,3 +39,17 @@ test = false;
 console.log ("Datentyp: " + typeof test);
 console.log("Inhalt: " + test);
 console.log("-------------")
+*/
+
+// Variable
+let test; // Variable : Deklaration
+test = "hi"; // Wertzuweisung (Initialisierung)
+test = "hello"; // Überschreiben
+console.log("Inhalt: " + test); // Ausgabe 
+
+
+// Konstante
+const test2 ="Hi!"; // Deklaration + Wertzuweisung gemeinsam
+test2 = "hello"; // Fehler !! 
+console.log (test2)
+
