@@ -69,13 +69,13 @@ else
 }
 */
 
-const firstName = "Jane";
+//const firstName = "Jane";
 
  //job = "driver";  // .. fährt TAXI! / UBER
  //job = "diver"; // .. taucht im Rhein! 
   //job = "artist"; // .. malt ein Bild!
  //job = "pilot"; // .. macht etwas anderes! --> default
-job = "teacher"; // .. unterrichtet!
+//job = "teacher"; // .. unterrichtet!
 // job = "instructor"; // .. unterrichtet!
 
 /** 
@@ -105,10 +105,11 @@ switch (job)
 
 /********  Fallunterscheidung / SWITCH|CASE 2 *******/
 
-const cond = true;
-const value = 2;
+/**const cond = false;
+const value = 1;
 
-switch (cond) {
+switch (cond) 
+{
     case (value == 1):
         console.log("Value hat den Wert 1.");
         break;
@@ -119,3 +120,4 @@ switch (cond) {
         console.log("Value hat einen anderen Wert.");
         break;
 }
+*/
