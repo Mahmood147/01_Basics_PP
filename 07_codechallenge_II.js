@@ -20,9 +20,9 @@ const prompt = require('prompt-sync')({sigint: true});
 let name =  prompt("Name: ") ;
 let alter = prompt("Alter: ") ;
 
-let milch = alter > 0 && alter < 6
-let Saft = alter > 6 && alter < 13 
-let Cola = alter > 12 && alter < 17
+let milch = alter >= 0 && alter < 6
+let Saft = alter > 5 && alter < 13 
+let Cola = alter > 12 && alter < 18
 let Wein = alter > 17 
 
 if ( milch)
