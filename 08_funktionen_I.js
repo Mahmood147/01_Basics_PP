@@ -53,16 +53,16 @@ function ausgabeNamenParams(firstName, FamilyName)
 // Postulat: one function = one job (uncle Bob)
 // SRP single responsibility principle
 
- ausgabeNamenSRP("Max","Mütze");
+ //ausgabeNamenSRP("Max","Mütze");
 
 
 
-function ausgabeNamenSRP(firstName, FamilyName) 
+function ausgabeNamenSRP(firstName, familyName) 
 {
    // 1. Funktionalität : string composing
 
    const GAP = " "
-    let outputStr = console.log("Hallo, " + firstName + " " + FamilyName + "!")
+    let outputStr = console.log("Hallo, " + firstName + " " + familyName + "!")
 
 
    // 2. Funktionalität : string output
@@ -70,3 +70,21 @@ function ausgabeNamenSRP(firstName, FamilyName)
     console.log(outputStr)
 }
 
+
+/***** Funktionen 03b *****/
+
+ // 1. Funktionalität: string composing
+output(getString("Max", "Mütze"))
+function getString(firstName, familyName) {
+    const GAP = " ";
+  let outputStr = "Hallo " + firstName + GAP + familyName + "!"; 
+return outputStr; // output, return schickt die Daten an den call ...
+
+
+}
+
+// 2. Funktionalität : string output
+
+function output(outputData) {
+    console.log(outputData)
+}
