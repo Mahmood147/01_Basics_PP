@@ -29,7 +29,7 @@
 
 
 /***** Objekte 1 Daten/Funktionen *******/
-
+/** 
 let person = {
                 firstName: "Marco",
                 familyName: "Grochowiak",
@@ -53,8 +53,26 @@ const txt = person.sayHello() + ", ich bin " + person.firstName +
 
 //output(txt);
 
+*/
+
+let baikal = {
+
+                value:"10m",
+                deep: {
+                    deeper:{
+                        temperature: "4 Grad Celsius",  
+                        deepest: "Das Licht - auf 1642m!",
+                    }
+                }
 
 
+            }
+
+
+output(baikal);
+output(baikal.value);
+output(baikal.deep.deeper.temperature);
+output(baikal.deep.deeper.deepest);
 
 // Modul: Ausgabe | Test
 //output("hi");
